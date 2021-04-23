@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ace68e687160d8b488c77254a88babf3, type: 3}
+  m_Name: GuildMasterOpen
+  m_EditorClassIdentifier: 
+  keyWord: Greeting
+  skillCheck: 0
+  dialogue: BLAZES! WHAT HAVE WE HERE?
+  playerResponses:
+  - skillToCheck: 
+    keyWord: Reply
+    playerResponse: Uh, you don't have to shout.
+  - skillToCheck: Swordsmanship
+    keyWord: Sword
+    playerResponse: What can you tell me about the monsters?
+  - skillToCheck: Heavy Armor
+    keyWord: Armor
+    playerResponse: Where can I find monsters?
+  defaultFailResponse: BEGONE!!
+  dialogueEvent: 0
+  eventId: 0

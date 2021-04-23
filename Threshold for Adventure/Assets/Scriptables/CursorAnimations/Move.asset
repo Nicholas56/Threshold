@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14ee72208ee37b4c9a299a536eb2132, type: 3}
+  m_Name: Move
+  m_EditorClassIdentifier: 
+  cursorType: 4
+  textureArray:
+  - {fileID: 2800000, guid: 54c0bf7b9c5b9884c8cc9a3ce22b469e, type: 3}
+  - {fileID: 2800000, guid: 23ea12e483b75cb4e9af8704de6901d5, type: 3}
+  - {fileID: 2800000, guid: 1172c2fcc80e80846b22a2acc08d7c9e, type: 3}
+  frameRate: 0.1
+  offset: {x: 3, y: 3}

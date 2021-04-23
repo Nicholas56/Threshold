@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ace68e687160d8b488c77254a88babf3, type: 3}
+  m_Name: Quest1Open
+  m_EditorClassIdentifier: 
+  keyWord: Greeting
+  skillCheck: 0
+  dialogue: Aye mate! Good day an' all.
+  playerResponses:
+  - skillToCheck: 
+    keyWord: Reply
+    playerResponse: Uh, yes. How are you?
+  - skillToCheck: 
+    keyWord: Quest
+    playerResponse: Do you have a quest for me?
+  - skillToCheck: Archery
+    keyWord: Question
+    playerResponse: Any tips for me?
+  defaultFailResponse: Off with ya!
+  dialogueEvent: 0
+  eventId: 0

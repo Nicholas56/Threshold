@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99cde2079da18204e9dc52b25f3c0c97, type: 3}
+  m_Name: SkillList
+  m_EditorClassIdentifier: 
+  skillList:
+  - name: Heavy Armor
+    levelFactor: 24
+    description: This skill will greatly reduce physical damage, but little protection
+      from magical damage.
+  - name: Light Armor
+    levelFactor: 24
+    description: This skill offers a balance of protection from physical and magical
+      damage.
+  - name: Magical Armor
+    levelFactor: 24
+    description: This skill negates greatly the effects of magic damage, but little
+      to defend from physical attacks.
+  - name: Swordsmanship
+    levelFactor: 24
+    description: This skill allows for close range powerful attacks.
+  - name: Archery
+    levelFactor: 24
+    description: This skill lets the user attack from range with moderately powerful
+      attacks.
+  - name: Magic
+    levelFactor: 24
+    description: This skill gives the user powerful ranged attacks, but with long
+      cooldowns between attacks.
+  - name: Barter
+    levelFactor: 24
+    description: This skill lets the user sell items for a value closer to the original
+      item price.
+  - name: Charm
+    levelFactor: 24
+    description: 
+  - name: Intimidate
+    levelFactor: 24
+    description: 

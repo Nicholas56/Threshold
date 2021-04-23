@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ace68e687160d8b488c77254a88babf3, type: 3}
+  m_Name: GuildMasterReply
+  m_EditorClassIdentifier: 
+  keyWord: Reply
+  skillCheck: 0
+  dialogue: WHAT!? THEN HOW WILL YOU HEAR ME?
+  playerResponses:
+  - skillToCheck: Heavy Armor
+    keyWord: Armor
+    playerResponse: Tell me about the monsters. Where are they?
+  - skillToCheck: Swordsmanship
+    keyWord: Sword
+    playerResponse: What can you tell me about the monsters?
+  defaultFailResponse: BEGONE!!
+  dialogueEvent: 0
+  eventId: 0

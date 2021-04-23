@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14ee72208ee37b4c9a299a536eb2132, type: 3}
+  m_Name: PickUp
+  m_EditorClassIdentifier: 
+  cursorType: 1
+  textureArray:
+  - {fileID: 2800000, guid: 98e9627735b7a72439af2645a646fb10, type: 3}
+  - {fileID: 2800000, guid: bf5339c0eb97c5b439252c9e85ac5243, type: 3}
+  - {fileID: 2800000, guid: f0f0adbaeee1c9c4e84a29d1196dafe3, type: 3}
+  - {fileID: 2800000, guid: bf5339c0eb97c5b439252c9e85ac5243, type: 3}
+  frameRate: 0.1
+  offset: {x: 6, y: 9}

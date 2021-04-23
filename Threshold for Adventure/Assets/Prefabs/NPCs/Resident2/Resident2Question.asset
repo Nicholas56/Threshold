@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ace68e687160d8b488c77254a88babf3, type: 3}
+  m_Name: Resident2Question
+  m_EditorClassIdentifier: 
+  keyWord: Question
+  skillCheck: 1
+  dialogue: Okay, so this town is only a few years old, but now everyone's spooked
+    Oh, the drama.
+  playerResponses: []
+  defaultFailResponse: So good to talk to you!
+  dialogueEvent: 0
+  eventId: 0
